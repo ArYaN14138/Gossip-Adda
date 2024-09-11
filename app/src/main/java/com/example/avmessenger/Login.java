@@ -56,7 +56,6 @@ public class Login extends AppCompatActivity {
              } else if (Pass.length()<6) {
                  password.setError("More than six character");
                  Toast.makeText(Login.this, "Password should be grater than six character", Toast.LENGTH_SHORT).show();
-                 
              }
              else{
                  //In this we have to check our Email and password is matched or not .
