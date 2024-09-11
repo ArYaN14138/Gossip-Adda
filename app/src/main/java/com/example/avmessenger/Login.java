@@ -60,7 +60,6 @@ public class Login extends AppCompatActivity {
              else{
                  //In this we have to check our Email and password is matched or not .
 
-
                  auth.signInWithEmailAndPassword(Email,Pass).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                      @Override
                      public void onComplete(@NonNull Task<AuthResult> task) {
