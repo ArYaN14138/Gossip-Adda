@@ -10,7 +10,7 @@
 
 
     <EditText
-        android:id="@+id/edittext"
+        android:id="@+id/Signup_confirm_password"
         android:layout_width="258dp"
         android:layout_height="51dp"
         android:ems="10"
@@ -42,7 +42,7 @@
         app:layout_constraintVertical_bias="0.705" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/Signup_username"
         android:layout_width="266dp"
         android:layout_height="52dp"
         android:ems="10"
@@ -108,7 +108,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/profilerg"
+        android:id="@+id/circular_img"
         android:layout_width="151dp"
         android:layout_height="130dp"
         android:src="@drawable/photocamera"
@@ -150,7 +150,7 @@
         app:layout_constraintVertical_bias="0.1" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/editText_signup_Email"
         android:layout_width="260dp"
         android:layout_height="49dp"
         android:ems="10"
@@ -166,7 +166,7 @@
         app:layout_constraintVertical_bias="0.502" />
 
     <EditText
-        android:id="@+id/edittext11"
+        android:id="@+id/edittext_signup_password"
         android:layout_width="251dp"
         android:layout_height="50dp"
         android:ems="10"
@@ -181,7 +181,7 @@
         app:layout_constraintVertical_bias="0.609" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/signup_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/black"
@@ -198,7 +198,7 @@
         app:layout_constraintVertical_bias="0.896" />
 
     <TextView
-        android:id="@+id/textView9"
+        android:id="@+id/textViewLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@color/black"
