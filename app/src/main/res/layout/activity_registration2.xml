@@ -110,6 +110,9 @@
     <ImageView
         android:id="@+id/circular_img"
         android:layout_width="151dp"
+
+
+
         android:layout_height="130dp"
         android:src="@drawable/photocamera"
         app:layout_constraintBottom_toBottomOf="parent"

@@ -2,11 +2,17 @@ package com.example.avmessenger;
 
 public class Users {
 
+    private final Object profilepic;
     String Profilepic,email,userName,password,userid,lastmessage,status;
 
-    public  Users()
+    public  Users(String id, String name, String email, String password, String cpassword, String imageURI, String status)
     {
-
+        this.userid = id;
+        this.userName = name;
+        this.email = email;
+        this.password = password;
+        this.profilepic = Profilepic;
+        this.status = status;
     }
 
 
